@@ -7,6 +7,9 @@ export const siteConfig = {
   // TODO: swap in the org's real inbox once one exists — this defaults to the
   // site owner's address so the Contact/Donate pages have a working mailto link.
   contactEmail: "budgetbuddyhq@gmail.com",
+  // TODO: replace with the real production domain once one is live — used for
+  // canonical links, sitemap.xml, robots.txt, and social share cards.
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://budgetbuddy.app",
   foundedYear: 2025,
   nav: [
     { label: "Our Mission", href: "/mission" },

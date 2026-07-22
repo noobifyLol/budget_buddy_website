@@ -17,8 +17,51 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: `${siteConfig.name} — ${siteConfig.tagline}`,
+  metadataBase: new URL(siteConfig.url),
+  title: {
+    default: `${siteConfig.name} — ${siteConfig.tagline}`,
+    template: `%s — ${siteConfig.name}`,
+  },
   description: siteConfig.description,
+  keywords: [
+    "budgeting app",
+    "financial literacy",
+    "nonprofit",
+    "free budgeting",
+    "personal finance education",
+    "Budget Buddy",
+  ],
+  applicationName: siteConfig.name,
+  openGraph: {
+    type: "website",
+    url: "/",
+    siteName: siteConfig.name,
+    title: `${siteConfig.name} — ${siteConfig.tagline}`,
+    description: siteConfig.description,
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `${siteConfig.name} — ${siteConfig.tagline}`,
+    description: siteConfig.description,
+  },
+  icons: {
+    icon: "/icon.png",
+  },
+};
+
+export const viewport = {
+  themeColor: "#12281a",
+};
+
+const organizationJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "NGO",
+  name: siteConfig.legalName,
+  alternateName: siteConfig.name,
+  description: siteConfig.description,
+  foundingDate: String(siteConfig.foundedYear),
+  email: siteConfig.contactEmail,
+  url: siteConfig.url,
 };
 
 export default function RootLayout({
@@ -29,6 +72,10 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${lora.variable} ${inter.variable} h-full`}>
       <body className="flex min-h-full flex-col antialiased">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+        />
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
