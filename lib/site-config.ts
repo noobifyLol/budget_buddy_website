@@ -15,6 +15,7 @@ export const siteConfig = {
     { label: "Our Mission", href: "/mission" },
     { label: "Get the App", href: "/get-the-app" },
     { label: "Donate", href: "/donate" },
+    { label: "Privacy Policy", href: "/policy" },
     { label: "Contact Us", href: "/contact" },
   ],
 };
