@@ -1,9 +1,9 @@
 export const siteConfig = {
   name: "Budget Buddy",
-  legalName: "Budget Buddy Platform Inc.",
-  tagline: "Budgeting Made Easy",
+  legalName: "Budget Buddy Youth Initiative",
+  tagline: "Budgeting Made Fun",
   description:
-    "Budget Buddy is a nonprofit on a mission to make financial literacy accessible to everyone, through a free, judgment-free budgeting app.",
+    "Budget Buddy is a youth-led initiative on a mission to make financial literacy fun and accessible for the next generation, through a free, gamified budgeting app.",
   // TODO: swap in the org's real inbox once one exists — this defaults to the
   // site owner's address so the Contact/Donate pages have a working mailto link.
   contactEmail: "budgetbuddyhq@gmail.com",

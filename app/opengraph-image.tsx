@@ -56,11 +56,11 @@ export default function Image() {
             color: "#93ae8e",
           }}
         >
-          <span>Nonprofit</span>
+          <span>Youth-Led</span>
           <span>&middot;</span>
           <span>100% Free</span>
           <span>&middot;</span>
-          <span>Judgment-Free</span>
+          <span>Gamified Learning</span>
         </div>
       </div>
     ),

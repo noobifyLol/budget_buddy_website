@@ -7,7 +7,7 @@ import { siteConfig } from "@/lib/site-config";
 export const metadata: Metadata = {
   title: `Get the App — ${siteConfig.name}`,
   description:
-    "Budget Buddy pairs real budgeting tools with bite-sized lessons, minigames, and a customizable avatar that grows with your progress.",
+    "Budget Buddy pairs real budgeting tools with gamified lessons — XP, levels, minigames, and a customizable avatar that grows with your progress.",
 };
 
 const skins = [
@@ -54,7 +54,8 @@ export default function GetTheAppPage() {
             <p className="max-w-xl text-lg leading-relaxed text-body">
               Real budgeting tools, bite-sized lessons, and a few good games —
               Budget Buddy turns financial literacy into a habit you actually
-              want to keep. Free forever, because we&rsquo;re a nonprofit.
+              want to keep. Free forever, because a youth-led initiative
+              built it to help people, not to profit.
             </p>
           </Reveal>
           <Reveal delay={260}>

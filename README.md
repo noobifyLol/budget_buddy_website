@@ -1,6 +1,7 @@
 # Budget Buddy Website
 
-Marketing site for Budget Buddy, a nonprofit financial-literacy app. Built with
+Marketing site for Budget Buddy, a youth-led initiative building a free
+financial-literacy app that teaches through gamification. Built with
 [Next.js](https://nextjs.org) (App Router), TypeScript, and Tailwind CSS.
 Deploys to [Vercel](https://vercel.com) with zero configuration.
 

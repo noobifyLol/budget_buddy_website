@@ -29,8 +29,8 @@ export default function Footer() {
               </span>
             </div>
             <p className="mt-4 text-sm leading-relaxed text-dark-muted">
-              A nonprofit making financial literacy free, friendly, and
-              judgment-free for everyone.
+              A youth-led initiative making financial literacy fun, free, and
+              judgment-free for everyone through gamification.
             </p>
             <ShareButton className="mt-6 !border-dark-border !text-dark-accent hover:!border-dark-accent hover:!text-dark-bg hover:!bg-dark-accent" />
           </div>
@@ -60,7 +60,7 @@ export default function Footer() {
 
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-dark-border pt-6 text-center sm:flex-row sm:text-left">
           <p className="text-xs text-dark-muted">
-            &copy; {year} {siteConfig.legalName} — Nonprofit est.{" "}
+            &copy; {year} {siteConfig.legalName} — Youth-led initiative est.{" "}
             {siteConfig.foundedYear}.
           </p>
           <p className="text-xs text-dark-muted">

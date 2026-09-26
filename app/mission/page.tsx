@@ -15,7 +15,7 @@ export default function MissionPage() {
       <section className="bg-bg-alt px-6 py-20 text-center sm:px-10 sm:py-28">
         <Reveal>
           <p className="font-display text-xs font-semibold uppercase tracking-[0.2em] text-accent">
-            Nonprofit est. {siteConfig.foundedYear}
+            Youth-Led Initiative &middot; Est. {siteConfig.foundedYear}
           </p>
           <h1 className="mt-4 font-display text-4xl font-bold text-ink sm:text-5xl">
             Our Mission
@@ -69,18 +69,19 @@ export default function MissionPage() {
                 Why We Built Budget Buddy
               </h2>
               <p className="mt-4 leading-relaxed text-body">
-                Budget Buddy was born out of a simple belief: everyone
-                deserves access to financial education, regardless of their
-                background, income level, or prior knowledge. We&rsquo;re a
-                nonprofit organization, which means our only goal is to serve
-                you — not to profit from you.
+                Budget Buddy started as a youth-led initiative: a group of
+                young people who noticed nobody had taught us this stuff
+                either, and decided to build the resource we wished we&rsquo;d
+                had. We&rsquo;re not a company — our only goal is to help
+                people learn, not to profit from them.
               </p>
               <p className="mt-4 leading-relaxed text-body">
-                We designed our app from the ground up to be approachable,
-                encouraging, and genuinely useful. No confusing jargon. No
-                judgment. Just clear, step-by-step guidance that meets you
-                exactly where you are and helps you take control of your
-                finances — one small step at a time.
+                We designed our app from the ground up to feel like a game,
+                not a chore — earn XP, level up, unlock rewards, and build
+                streaks while you learn. No confusing jargon. No judgment.
+                Just clear lessons and a little friendly competition that
+                helps you take control of your finances — one level at a
+                time.
               </p>
             </div>
           </Reveal>

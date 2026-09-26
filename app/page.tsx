@@ -10,13 +10,13 @@ import { siteConfig } from "@/lib/site-config";
 const features = [
   {
     icon: IconShield,
-    title: "Nonprofit, Not For Profit",
-    body: "No ads, no data selling, no premium paywall. We only answer to the people who use Budget Buddy.",
+    title: "Built By Youth, For Everyone",
+    body: "No ads, no data selling, no premium paywall. We're a group of young people who built the app we wished we'd had.",
   },
   {
     icon: IconSparkles,
-    title: "Learning That Feels Like Play",
-    body: "Bite-sized lessons, minigames, and a customizable buddy that make budgeting something you look forward to.",
+    title: "Financial Literacy, Gamified",
+    body: "XP, levels, streaks, and minigames turn budgeting lessons into something you actually want to open every day.",
   },
   {
     icon: IconHeart,
@@ -63,7 +63,7 @@ export default function Home() {
           <div className="flex flex-1 flex-col items-start text-left">
             <Reveal>
               <p className="font-display text-xs font-semibold uppercase tracking-[0.25em] text-dark-accent">
-                Nonprofit &middot; Est. {siteConfig.foundedYear}
+                Youth-Led Initiative &middot; Est. {siteConfig.foundedYear}
               </p>
             </Reveal>
 
@@ -71,14 +71,14 @@ export default function Home() {
               <h1 className="mt-4 font-display text-5xl font-bold leading-[1.05] text-white sm:text-6xl md:text-7xl">
                 Budgeting
                 <br />
-                Made Easy
+                Made Fun
               </h1>
             </Reveal>
 
             <Reveal delay={160}>
               <p className="mt-8 max-w-md text-lg leading-relaxed text-dark-body">
-                With Budget Buddy, anyone can budget. We take pride in making
-                financing easy and accessible to all.
+                Budget Buddy is a youth-led initiative turning financial
+                literacy into a game anyone can pick up and enjoy.
               </p>
             </Reveal>
 
@@ -214,9 +214,9 @@ export default function Home() {
             already have it.
           </p>
           <p className="mx-auto mt-6 max-w-xl leading-relaxed text-muted">
-            That belief is why Budget Buddy exists — a free, nonprofit app
-            built to make financial literacy accessible to everyone,
-            regardless of background or income.
+            That belief is why Budget Buddy exists — a free app built by a
+            youth-led initiative to make financial literacy fun and
+            accessible to everyone, regardless of background or income.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <PillButton href="/mission" variant="outline">

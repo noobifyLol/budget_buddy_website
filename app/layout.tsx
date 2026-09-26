@@ -26,7 +26,8 @@ export const metadata: Metadata = {
   keywords: [
     "budgeting app",
     "financial literacy",
-    "nonprofit",
+    "youth initiative",
+    "gamification",
     "free budgeting",
     "personal finance education",
     "Budget Buddy",
@@ -55,7 +56,7 @@ export const viewport = {
 
 const organizationJsonLd = {
   "@context": "https://schema.org",
-  "@type": "NGO",
+  "@type": "Organization",
   name: siteConfig.legalName,
   alternateName: siteConfig.name,
   description: siteConfig.description,

@@ -45,10 +45,11 @@ export default function DonatePage() {
 
         <Reveal delay={120}>
           <p className="mx-auto mt-8 max-w-2xl leading-relaxed text-body">
-            Budget Buddy is a nonprofit — every dollar we raise goes toward
-            making financial education free and judgment-free for anyone who
-            needs it. We&rsquo;re still setting up online giving, so for now
-            the fastest way to donate is to reach out directly.
+            Budget Buddy is a youth-led initiative — every dollar we raise
+            goes toward making financial education free, fun, and
+            judgment-free for anyone who needs it. We&rsquo;re still setting
+            up online giving, so for now the fastest way to donate is to
+            reach out directly.
           </p>
 
           <div className="mt-8 flex justify-center">
